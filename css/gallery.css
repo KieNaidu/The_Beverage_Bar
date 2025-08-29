@@ -1,0 +1,30 @@
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      text-align: center;
+      border: 1px solid #A0522D;
+      border-radius: 8px;
+      padding: 10px;
+      background: #EADDCA;
+    }
+
+    .gallery-item img {
+      width: 350px;
+      height: 500px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .gallery-item h3 {
+      margin: 10px 0 5px;
+    }
+
+    .gallery-item p {
+      color: #e63946;
+      font-weight: bold;
+    }

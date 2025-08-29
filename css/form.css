@@ -1,0 +1,51 @@
+.myForm {
+  margin: 50px auto;          /* center align */
+  padding: 15px;
+  width:500px;
+  height: 400px;
+  background-color: #f9f9f9;  /* light grey background */
+  border: 1px solid #ccc;     
+  border-radius: 8px;         /* rounded corners */
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.myForm label {
+  display: inline-block;             /* each label on a new line */
+  margin: 8px 0 4px;          /* space above and below */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.myForm input[type="text"] {
+  width: 20%;          
+  padding: 6px;        
+  margin-bottom: 10px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.myForm p {
+  margin: 10px 0 6px;
+  font-weight: bold;
+}
+
+.myForm input[type="radio"] {
+  margin-right: 6px;          /* space before label */
+  
+}
+
+.submitButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+}

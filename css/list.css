@@ -1,0 +1,25 @@
+.specials {
+  background: #fef7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.specials h2 {
+  color: #5C4033;
+  text-align: center;
+}
+
+.specials ul {
+  list-style: none;
+  padding: 0;
+}
+
+.specials li {
+  background: #fff;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 4px solid #5C4033;
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
