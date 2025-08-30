@@ -1,0 +1,15 @@
+/* Basic media query syntax */
+
+/*@media (condition) {
+
+} */
+
+body {
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: burlywood;
+    }
+}
